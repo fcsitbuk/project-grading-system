@@ -1,0 +1,12 @@
+Options +MultiViews
+RewriteEngine On 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriterULE ^([^\.]+)$ $1.php [NC,L]
+Options -Indexes
+
+<files ~ "^.*\.([Hh][Tt][Aa])">
+order allow,deny
+deny from all
+satisfy all
+</files>

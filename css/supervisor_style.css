@@ -1,0 +1,767 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #444444;
+}
+.clear {
+clear: both;
+line-height:0px;
+}
+
+body {
+	background : #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+li{
+	list-style-type: none;
+}
+
+div#theme{
+	background: #0099CC;
+	width: 100%;
+	height: 200px;
+	opacity: 0.7;
+}
+div#w_inner{
+    width: 60%;
+    background: white;
+    margin: 0 auto;
+    border: 1px solid #0099CC;
+	border-top: none;
+    border-bottom: none;
+    border-radius: 5px;
+	margin: -80px auto 0px auto;
+	position: relative;
+}
+
+div#wrapper{
+    width: 100%;
+    height: 600px;
+	background-size: 100% 100%;
+    padding: 30px 0px 0px 0px;   
+}
+div#wi_header{
+    width: 100%;
+    background: #0099CC;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #0099cc;
+}
+div#wi_header header#wih_header{
+    color: white;
+    display: flex;
+}
+header#wih_header div.wihh_name{
+    flex: 0.5;
+}
+header#wih_header div.wihh_name h2{
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+	font-size: 21px;
+	color: #F9F9F9;
+}
+
+div#wi_section section#wis_section h4{
+    padding: 5px 0px;
+    text-align: center;
+    text-transform: capitalize;
+    border-bottom: 5px solid #2196F3; 
+    width: 300px;
+    margin: 0 auto;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+i.fa.fa-folder-open-o{
+	color: #F9F9F9;;
+	font-size: 35px;
+	padding: 0px 0px 0px 20px;
+}
+div.wihh_name h2 span.wihhn_span{
+    font-size: 35px;
+    font-weight: bold;
+	color: #F9F9F9;
+}
+header#wih_header div.wihh_nav{
+    text-align: right;
+    flex: 0.5;
+    padding: 10px 5px;
+	color: #F9F9F9;
+}
+div.wihh_nav h5{
+    display: inline-block;
+    padding: 0px 10px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+	font-weight: normal;
+}
+div.wihh_nav div.wihhn_div{
+	display: inline-block;
+}
+div.wihhn_div span.wihhn_name{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    cursor: default;
+	color: #F9F9F9;
+}
+div.wihhn_div span.wihhn_caret{
+    padding: 15px 0px;
+	color: #F9F9F9;
+}
+div.wihhn_div span.wihhn_caret:hover{
+    color: #fff;
+    cursor: pointer;
+}
+div.wihhn_div ul.dropdown-menu{
+    display: none;
+}
+
+
+
+div#wi_section{
+	
+	
+	
+	
+}
+div#wi_section section#wis_section{}
+
+div#profile_image{
+	width:228px;
+	height:228px;
+	margin:auto;
+	text-align:center;
+	
+}
+div#profile_image img{
+	width:100%;
+	height:100%;
+	
+	
+}
+ 
+ div#student_details{
+	 width: 500px;
+	 height: 100px;
+	 margin: auto;
+	 font-family:'Source Sans Pro', sans-serif; 
+	 font-size: 14px; 
+	 font-weight: 300; 
+	 line-height: 32px; 
+	 text-align: left;
+	
+ }
+
+  div.urScore{
+	 color: #444; 
+	 font-family: sans-serif, helvetica;
+	 font-size: 45px; 
+	 font-weight: normal; 
+	 line-height: 72px; 
+	 margin: 0 0 8px; 
+	 text-align: center; 
+	 
+	text-shadow: 0 1px 1px #fff;
+ }
+
+div#wi_footer{
+    width: 100%;
+    background: #777;
+    padding: 10px;
+    margin-top: 20px;
+}
+div#wi_footer footer#wif_footer{}
+div#wi_footer footer#wif_footer p{
+    color: #F9F9F9;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 15px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    cursor: default;
+}
+section.content {
+		max-width: 1190px;
+		padding: 5px;
+		height: auto;
+		margin:auto;
+	}
+div.student_file {
+	width: 100%;
+	margin: 10px auto;
+	height: auto;
+	padding: 10px 20px;
+	box-shadow: 1px 1px 1px 1px #505050;
+	border-radius: 8px;
+}
+
+div.student_file h3 {
+	color: #333;
+	font-weight: 100;
+	font-size: 22px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 15px;
+	padding: 7px;
+}
+
+table.allocate_stud {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.allocate_stud tr th, table.allocate_stud tr td {
+	height: 40px;
+	padding: 5px;
+	color: #333;
+	font-size: 14px;
+	text-align:center;
+}
+table.allocate_stud tr td a{
+	color: #0000FF;
+}
+table.allocate_stud tr:nth-child(odd) {
+	background: #efefef;
+}
+
+table.allocate_stud tr:first-child th {
+	background: #757575;
+	color: #fff;
+}
+
+table.allocate_stud select {
+	border: 1px solid #ccc;
+	padding: 4px;
+}
+
+
+
+div.my_details{
+	
+	margin-top:15px;
+	max-width:720px;
+	 height:auto;
+	 border:2px solid #607D8B;
+	 border-radius:15px 50px 30px;
+	 padding:20px;
+	 margin:auto;
+	 box-shadow:5px 5px #607D8B;
+}
+
+div.inner_my_details{
+	height:auto;
+	display:block;
+	margin-bottom:2px;
+	
+}
+
+div.inner1{
+	float:left;
+	width:60%;
+	height:40px;
+	padding:10px 10px;	
+	background:#9E9E9E;
+	
+}
+
+
+div #total{
+	float:left;
+	width:60%;
+	height:40px;
+	padding:20px;	
+	background:#757575;
+	line-height:0px;
+}
+
+div.inner2{
+	float:right;
+	width:39%;
+	height:40px;
+	display:flex;
+	padding: 10px 5px 10px 10px;
+	background:#eee;
+}
+div.innera{
+	float:left;
+	width:19%;
+	height:40px;
+	padding:10px 10px;	
+	background:#9E9E9E;
+	
+}
+div.innerb{
+	float:right;
+	width:80%;
+	height:40px;
+	display:flex;
+	padding: 10px 5px 10px 10px;
+	background:#eee;
+}
+div.innera p{
+	text-align: left;
+	font-family:'Source Sans Pro', sans-serif; 
+	font-size: 14px; 
+	font-weight: 300; 
+	color:#ffffff;
+	
+	
+}
+
+div.inner1 p{
+	text-align: left;
+	font-family:'Source Sans Pro', sans-serif; 
+	font-size: 14px; 
+	font-weight: 300; 
+	color:#ffffff;
+	
+	
+}
+
+div.inner2 p{
+	text-align: right;
+	font-family:'Source Sans Pro', sans-serif; 
+	font-size: 12px; 
+	color:red;
+	margin-left:1px;
+	padding:3px;
+	min-width:30px;
+	width: 5%;
+}
+
+
+div.inner2 .wiss_range{
+	padding: 2px 0px;
+	width: 70%;
+}
+
+
+div.inner2 .wissd_input{
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 2px 0px;
+	text-align: center;
+	margin-left:2px;
+	width: 25%;
+}
+
+ div.inner2:nth-child(odd){
+	background: blue;
+}
+
+div#sum{
+	font-size:25px;
+	text-align:center;
+	padding-top:8px;
+	background:#eee;
+	float:right;
+	width:39%;
+	height:40px;
+}
+
+div#pp{
+	text-align:center;
+	font-size:25px;
+	float:right;
+	width:39%;
+	color:red;
+}
+div#pp input#percent{
+	width:100%;
+	height:40px;
+	padding-top:8px;
+	background:#eee;
+	border: none;
+	color:red;
+	text-align:center;
+}
+div#button{
+	margin:10px auto;
+	width:100%;
+	text-align:center;
+}
+button#bttn{
+	font-size:20px;
+	width:150px;
+	height:40px;
+	background:#757575;
+	color:#ffffff;
+	border-radius:10px;
+	
+}
+table.wiss_table{
+    width: 95%;
+    margin: 10px auto 50px auto;
+	
+}
+table.wiss_table tr{
+    text-align: center;
+}
+table.wiss_t_checklist tr{
+	font-size: 17px;
+}
+table.wiss_table tr.wt_header th{
+    text-align: center;
+    background: #444444;
+    border-bottom: none; 
+    padding: 10px 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #F9F9F9;
+}
+table.wiss_table tr td a{
+	color: #2196F3;
+}
+table.wiss_table tr td{
+    padding: 12px 0px;
+}
+table.wiss_table tr.wt_content{
+    background: #FFFFFF;
+}
+table.wiss_table tr.wt_content:nth-child(odd){
+    background: #F5F5F5;
+}
+table.wiss_table tr.wt_content td.wt_sn{
+    width: 7%;
+}
+
+p.instruction{
+	text-align: justify;
+	padding: 20px 20px 10px 20px;
+	background: #EEFFEE;
+	color: green;
+}
+div.wissaf_topic{
+	text-align: justify;
+	padding: 20px 30px;
+}
+div.wissaf_topic label{
+	display: block;
+}
+div.wissaf_topic input.wt_input{
+	padding: 10px 15px;
+	width: 95%;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+}
+div.approved_topic{
+	background: #EEFFEE;
+	padding: 10px 10px 30px 10px;
+	text-align: center;
+}
+div.approved_topic h3, p.submitted_toggle{
+	font-size: 20px;
+	text-transform: capitalize;
+	text-align: justify;
+}
+p.submitted_toggle{
+	padding: 0px 10px;
+	border-bottom: 1px solid #FF0000;
+	text-align: center;
+	padding-top: 20px;
+}
+div.approved_topic p{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+div.wissaf_decision{
+	width: 50%;
+	margin: 30px auto 80px auto;
+	background: #F9F9F9;
+	padding: 20px 0px;
+	box-shadow: 0px 0px 10px 5px #DDD;
+	text-align: center;
+}
+div.wissaf_decision div.wd_div{}
+div.wd_div label{
+	display: block;
+	border-bottom: 1px solid #ff0000;
+	margin-bottom: 20px;
+}
+div.wd_div select.sel_topics{
+	padding: 15px;
+	display: block;
+	width: 50%;
+	margin: 10px auto 20px auto;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	text-align: justify;
+}
+p.top_history{
+	text-transform: capitalize !important;
+	margin: 50px auto 0px auto;
+	font-weight: normal !important;
+	
+}
+div.wiss_assess{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    display: none;
+}
+div.upload_history{
+	display: flex;
+}
+div.uh_sent, div.uh_received{
+	flex: 0.5;
+	
+}
+div.uh_received{
+	flex: 0.5;
+}
+div.uh_received a{}
+div.upload_history h5{
+	font-weight: bold;
+	text-transform: capitalize;
+	font-weight: bold;
+	border-bottom: 1px solid #CCC;
+	padding: 10px 0px;
+}
+div.uh_sent input.reply{
+	float: right;
+	display: block;
+	margin: 15px;
+	padding: 10px 20px !important;
+}
+div.upload_history span{
+	display: block;
+	padding: 10px 0px;
+}
+form.upload_part{
+	margin-top: 50px;
+}
+div.wissaf_mark{
+    background: #FFFFFF;
+    border-top: 1px solid #DDD;
+    text-align: left;
+}
+
+div.wissafm_upload{
+    width: 100%;
+    padding: 10px 0px;
+}
+input#file{
+    display: none;
+}
+label.label_upload{
+    width: 80%;
+    margin: 10px auto;
+    height: 120px;
+    text-align: center;
+    border: 4px dashed #99CC99;
+    display: block;
+    line-height: 100px;
+    border-radius: 5px;
+    font-weight: normal;
+    font-size: 20px;
+}
+label.label_upload i{
+    font-size: 30px;
+    padding-right: 20px;
+}
+div.wm_btn_upload{
+	text-align: center;
+	padding: 20px 0px;
+}
+@media screen and (max-width: 1185px){
+div#w_inner{
+    width: 70%;
+}
+header#wih_header div.wihh_name h2{
+    letter-spacing: 1px;
+    word-spacing: 0px;
+}
+header#wih_header div.wihh_name h2 i{
+	display: none;
+}
+
+div.innera p{
+	 
+	font-size: 12px; 
+	
+}
+
+div.inner1 p{
+	
+	font-size: 12px; 
+	
+}
+
+div.innerb p{
+	font-size:12px;
+}
+
+div#w_inner{
+    width: 80%;
+    
+}
+div.urScore{
+	 	 font-size: 30px; 
+	  }
+div#profile_image{
+	width:150px;
+	height:150px;
+	margin:auto;
+	text-align:center;
+	
+}
+div#profile_image img{
+	width:100%;
+	height:100%;
+	}
+	
+table.allocate_stud th, table.allocate_stud td {
+	font-size: 12px;
+	}	
+
+table.wiss_table tr.wt_header th:nth-child(1), table.wiss_table tr.wt_header th:nth-child(3), table.wiss_table tr.wt_header th:nth-child(4){
+    display: none;
+}
+table.wiss_table tr.wt_header th{
+    padding: 5px 0px;
+    letter-spacing: 1px;
+}
+table.wiss_table tr td{
+    padding: 5px 0px;
+}
+table.wiss_table tr.wt_content td.wt_sn, table.wiss_table tr.wt_content td.wt_re3{
+    display: none;
+}
+label.label_upload{
+    line-height: 60px;
+}
+}
+@media screen and (max-width: 500px){
+div#wrapper{
+    height: 400px;
+}
+div#w_inner{
+    width: 95%;
+}
+div#wi_header{
+    padding: 0px 5px;
+}
+ header#wih_header div.wihh_name{
+     order: 2;
+}
+header#wih_header div.wihh_name h2{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 13px;
+    text-align: center;
+}
+div.wihh_name h2 span.wihhn_span{
+    font-size: 20px;
+}
+header#wih_header div.wihh_nav{
+    text-align: left;
+}
+div.inner1 p{
+	font-size: 11px; 
+	}
+
+div#w_inner{
+    width: 90%;
+    }
+div.inner2 .wissd_input{
+		width: 35%;
+}
+
+div.innera p{
+	font-size: 11px; 
+}
+
+div.innerb p{
+	font-size:11px;
+}
+div.urScore{
+	 	 font-size: 20px; 
+		 margin-bottom:1px;
+	  }
+
+	div#profile_image{
+	width:100px;
+	height:100px;
+	margin:auto;
+	text-align:center;
+	
+}
+div#profile_image img{
+	width:100%;
+	height:100%;
+	
+	
+}  
+
+table.allocate_stud th, table.allocate_stud td {
+	font-size: 10px;
+	}	  
+label.label_upload{
+    width: 90%;
+    line-height: 50px;
+}
+}
+
+@media screen and (max-width: 407px){
+div.inner1 p{
+	font-size: 8px; 
+	}
+
+div#w_inner{
+    width: 100%;
+    }
+div.inner2 .wissd_input{
+		width: 70%;
+}
+
+div.innera p{
+	font-size: 9px; 
+}
+
+div.innerb p{
+	font-size:9px;
+}
+div.urScore{
+	 	 font-size: 15px; 
+		 
+	  }
+
+	div#sum{
+	font-size:14px;
+	}
+
+div#percent{
+	font-size:14px;
+	
+}
+div#profile_image {
+	width:70px;
+	height:70px;
+	
+	
+}
+div#profile_image img{
+	width:100%;
+	height:100%;
+	
+	
+}
+table.allocate_stud th, table.allocate_stud td {
+	font-size: 9px;
+	}
+}

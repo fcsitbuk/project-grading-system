@@ -1,0 +1,59 @@
+section.content {
+	width: 100%;
+	max-width: 100%;
+	
+	margin: 0px;
+}
+div.student_file {
+	width: 100%;
+	padding: 10px;
+	box-shadow: none;
+	margin: 0px;
+}
+div.in_header{
+	display: none;
+	visibility: hidden;
+}
+nav.left_nav{
+	width: 0px;
+	display: none;
+	position: relative;
+	visibility: hidden;
+	top: 0px;
+}
+h3.section_head{
+	display: none;
+}
+div.sf_print{
+	display: none;
+}
+
+table.allocate_stud{
+	border-collapse: collapse;
+	page-break-after: always;
+	color: #000;
+}
+
+table.allocate_stud th, table.allocate_stud td {
+	height: auto;
+	padding: 1px;
+	border: 1px solid #000;
+	color: #000;
+}
+table.allocate_stud tr.as_head{
+	background: #fff;
+	border: 1px solid #000;
+}
+table.defense_all{
+	color: #000;
+	margin-bottom: 0px;
+	border-bottom: none;
+	font-size: 8px;
+}
+
+
+@page 
+        {
+            size: auto;   /* auto is the current printer page size */
+            margin: 7mm 25mm;  /* this affects the margin in the printer settings */
+        }

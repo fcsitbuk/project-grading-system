@@ -1,0 +1,1254 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #444444;
+}
+div.clear {
+clear: both;
+}
+
+body {
+	background : #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+li{
+	list-style-type: none;
+}
+
+/**ignore codes from here */
+div#theme{
+	background: #0099CC;
+	width: 100%;
+	height: 200px;
+	opacity: 0.7;
+}
+div#wrapper{
+    width: 100%;
+ 	height: 600px;
+	background-size: 100% 100%;
+    padding: 30px 0px 0px 0px;   
+}
+div#w_inner{
+    width: 60%;
+    background: white;
+    margin: 0 auto;
+    border: 1px solid #0099CC;
+    border-top: none;
+    border-bottom: none;
+	margin: -80px auto 0px auto;
+	position: relative;
+}
+div#wi_header{
+    width: 100%;
+    background: #0099CC;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+div#wi_header header#wih_header{
+    color: white;
+    display: flex;
+}
+header#wih_header div#wh_img{
+    flex: 0.3;
+	text-align: center;
+}
+header#wih_header div#wh_img img{
+	width: 70px;
+	height: 70px;
+}
+header#wih_header div.wihh_name{
+    flex: 0.7;
+}
+header#wih_header div.wihh_name h2{
+	
+    letter-spacing: 3px;
+    word-spacing: 2px;
+	color: #F9F9F9;
+}
+i.fa.fa-folder-open-o{
+	color: #f9f9f9;
+	font-size: 30px;
+	padding: 0px 0px 0px 10px;
+}
+div.wihh_name h2 span.wihhn_span{
+    font-size: 35px;
+    font-weight: bold;
+	color: #F9F9F9;
+	text-transform: uppercase;
+}
+header#wih_header div.wihh_nav{
+    flex: 0.5;
+    text-align: right;
+    padding: 10px 5px;
+}
+div.wihh_nav h5{
+    display: inline-block;
+    padding: 0px 10px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+	color: #f9f9f9;
+}
+div.wihh_nav div.wihhn_div{}
+div.wihhn_div span.wihhn_name{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    cursor: default;
+	color: #f9f9f9;
+}
+div.wihhn_div span.wihhn_caret{
+    padding: 15px 0px;
+	color: #f9f9f9;
+}
+div.wihhn_div span.wihhn_caret:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+div.wihhn_div ul.dropdown-menu{
+    display: none;
+}
+/**ignore codes to here */
+div#wi_section{}
+div#wi_section section#wis_section{
+    padding: 20px;
+}
+div#wi_section section#wis_section h4{
+    padding: 5px 0px;
+    text-align: center;
+    text-transform: capitalize;
+    border-bottom: 5px solid #2196F3; 
+    width: 300px;
+    margin: 0 auto;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+div.wiss_students{
+    width: 45%;
+    border-right: 2px solid #2196F3;
+    border-top: 2px solid #2196F3;
+    border-left: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    border-radius: 5px;
+    float: left;
+    margin-bottom: 50px;
+    height: 290px;
+    overflow-y: scroll;
+    max-height: 290px;
+}
+div.wiss_students:hover div.wisss_name p{
+    border-bottom: 3px solid #E64A19;
+    
+    transition: border 0.2s linear 0s;
+}
+div.wiss_students::-webkit-scrollbar {
+    width: 7px;
+}
+div.wiss_students::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 8px #DDD; 
+    border-radius: 5px;
+	}
+div.wiss_students::-webkit-scrollbar-thumb{
+	background: #2196f3;
+	border-radius: 5px;
+	}
+
+div.wiss_students:nth-child(even){
+    float: right;
+    border-left: 2px solid #2196F3;
+    border-bottom: 2px solid #2196F3;
+    border-right: 1px solid #DDD;
+    border-top: 1px solid #DDD;
+}
+div.wisss_name p{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-bottom: 3px solid #BBB;
+    font-size: 16px;
+    margin-top: -20px;
+    padding: 0px 24px 0px 0px;
+}
+div.wisss_title p{
+    text-transform: uppercase;
+    text-align: center; 
+}
+div.wisss_assess{
+    display: block;
+    width: 100%;
+    float: left;
+    padding: 5px 0px;
+    background: #F9F9F9;
+}
+div.wisss_assess:nth-child(odd){
+    background: #F4F4F4;
+}
+div.wisss_assess label{
+    padding: 0px 10px;
+    width: 60%;
+    text-align: right;
+}
+div.wisss_assess input{
+    width: 60px;
+    padding: 10px 5px;  
+    border: none;
+    text-align: center;
+}
+div.wisss_edit{
+    text-align: right;
+    padding: 2px 5px;
+}
+div.wisss_edit i{
+    color: #2196F3;
+    font-size: 30px;
+    transition: color 0.2s linear 0s;
+}
+div.wisss_edit i:hover{
+    cursor: pointer;
+    color: #E64A19;
+}
+div.wisss_assess span{
+    padding: 10px 5px;
+}
+
+
+@keyframes blinker {  
+  50% { opacity: 0.2; }
+}
+
+/**ignore codes from here */
+div#wi_footer{
+    width: 100%;
+    background: #777;
+    padding: 10px;
+    margin-top: 20px;
+}
+div#wi_footer footer#wif_footer{}
+div#wi_footer footer#wif_footer p{
+    color: #F9F9F9;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 15px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    cursor: default;
+}
+/**ignore codes to here */
+
+/**assess.html styles starts here**/
+div.wiss_search{
+    width: 70%;
+    margin: 0 auto;
+}
+div.wisss_form{
+    box-shadow: 0px 0px 30px 5px #DDD;
+    padding: 40px 20px;
+    border: 1px solid #AAA;
+    border-bottom: 2px solid #AAA;
+    width: 70%;
+    margin: 40px auto;
+    border-radius: 7px 0px;
+}
+div.wisss_form:hover{
+    border-bottom: 2px solid #2196F3;
+}
+div.wisss_form p{
+    text-align: center;
+    font-size: 16px;
+    color: #2196F3;
+    letter-spacing: 3px;
+}
+div.wisss_form form{
+	width: 100%;
+}
+div.wisss_form form input{
+    padding: 15px; 
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    height: auto;
+	width: 100%;
+	border-radius: 5px !important;
+	margin-top: 15px;
+}
+div.wisss_result{
+    border: 1px solid #DDD;
+    display: flex;
+    transition: background 0.2s linear 0s;
+    margin-bottom: 20px;
+}
+div.wisss_result:hover{
+    cursor: pointer;
+    background: #F4F4F4;
+}
+div.wisss_result img{
+    height: 155px;
+    width: 150px;
+    flex: 0.2;
+    max-height: 170px;
+    max-width: 170px;
+	
+}
+div.wisss_result i.fa-edit{
+	text-align: right;
+	color: #0000ff;
+	font-size: 25px;
+	display: block;
+	transition: color 0.2s linear 0s;
+	margin-bottom: -7px;
+	
+}
+div.wisss_result i.fa-edit:hover{
+	color: #ff0000;
+	
+}
+div.wisss_result div#wisssr_detail{
+    flex: 0.8;
+    padding: 5px 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+div#wisssr_detail span{
+    text-transform: capitalize;
+    width: 120px;
+    float: left;
+    text-align: right;
+    padding: 0px 10px;
+    font-weight: bold;
+}
+div#wisssr_detail span:after{
+    content: ': ';
+}
+div#wisssr_detail h5{}
+div#wisssr_detail h5:nth-child(even){
+    text-transform: uppercase;
+}
+div#wisssr_detail h5:nth-child(odd){
+    text-transform: capitalize;
+}
+div#wisssr_detail p{}
+div#wisssr_detail p:nth-child(odd){
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-weight: bold;
+    border-bottom: 2px solid #CCC;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+}
+div.wiss_assess{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    display: none;
+}
+p.uploadMsg{
+	margin: 0px;
+	
+}
+
+div.acc_create, div.acc_login{
+    width: 52%;
+	margin: 40px auto;
+    border: 1px solid #DDD;
+	box-shadow: 0px 0px 20px 5px #DDD; 
+}
+div.acc_create{
+	display: none;
+}
+form.ac_form{
+     padding: 40px 20px;
+}
+div.input-group{
+    margin: 20px 0px;
+}
+input.wissaf_input{
+    padding: 15px 10px;
+    letter-spacing: 5px; 
+	height: auto;
+}
+div.input-submit{
+    text-align: right;
+}
+input.wissaf_btn{
+    padding: 15px 30px;
+    letter-spacing: 3px;
+    transition: letter-spacing 0.4s linear 0s;
+}
+input.wissaf_btn:hover{
+    letter-spacing: 0px;
+}
+p.ac_toggle{
+	text-align: center;
+}
+p#lo{
+	padding: 40px 0px;
+}
+p#acc_reco{
+	font-size: 16px;
+	letter-spacing: 2px;
+	padding: 10px 0px;
+}
+form#wissa_form{
+    background: #F5F5F5;
+}
+div.wissaf_img{}
+div.wissaf_img img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+div.wissaf_det{
+    width: 70%;
+    margin: 0 auto;
+}
+div.wissaf_det h6{
+    text-transform: uppercase;
+    padding: 10px 0px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+div.wissaf_det h6 i{
+    margin-left: 20px;
+	border-radius: 5px;
+   
+}
+div.wissaf_det p:nth-child(even){
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+div.wissaf_det p:nth-child(odd){
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 14px 0px;
+    letter-spacing: 2px;
+}
+div.wissaf_det p:nth-child(odd) span{
+    text-transform: uppercase;
+    color: dodgerblue;
+}
+div.wissaf_det select.wd_supervisor{
+    margin: 10px 0px 20px 0px;
+    padding: 10px 30px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+}
+p#ac_forgot{
+	padding-bottom: 50px !important;
+}
+div.wissaf_mark{
+    background: #FFFFFF;
+    border-top: 1px solid #DDD;
+    text-align: left;
+}
+div.wissaf_mark h5{
+    text-transform: capitalize;
+    width: 180px;
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: bold;
+    border-bottom: 5px solid #2196F3;
+    font-size: 18px;
+}
+div.wissafm_factor{
+    padding: 15px 10px;
+    display: flex;
+    background: #F6F6F6;
+}
+div.wissafm_factor:nth-child(odd){
+    background: #EEE;
+}
+div.wissafm_factor label{
+    text-align: right;
+    padding-right: 15px;
+    flex: 0.35;
+}
+div.wissafm_factor label:after{
+    content: ':';
+}
+div.wissafm_factor input.fac_range{
+    flex: 0.65;
+
+}
+div.wissafm_factor input.fac_res{
+    width: 50px;
+    max-width: 50px;
+    text-align: center;
+    flex: 0.05;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+}
+input#save{
+    margin: 20px 10px;
+    padding: 10px 30px;
+    float: right;
+}
+
+/**assess.html styles ends here**/
+/**login.html**/
+div.wiss_div{
+    width: 50%;
+    margin: 80px auto;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+}
+div.wissd_p p{
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    border-bottom: 2px solid #BBB;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background: #F5F5F5;
+    padding: 15px 0px;
+    cursor: default;
+}
+p#msg{
+	text-align: center;
+}
+form.wissd_form{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+form.wissd_form div{
+    margin: 20px 0px;
+}
+form.wissd_form input.wissdf_input{
+    height: auto;
+    padding: 15px 10px;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+form.wissd_form div:nth-child(3){
+    text-align: right;
+}
+input.btn_login{
+    padding: 10px 40px;
+    letter-spacing: 3px;
+    transition: letter-spacing 0.2s linear 0s;
+    border: none;
+}
+input.btn_login:hover{
+    letter-spacing: 0px;
+}
+
+
+
+/**projects.html**/
+table.wiss_table{
+    width: 100%;
+    margin: 10px 0px 50px 0px;
+}
+table.wiss_table tr{
+    text-align: center;
+}
+table.wiss_t_checklist tr{
+	font-size: 16px;
+}
+table.wiss_table tr.wt_header th{
+    text-align: center;
+    background: #444444;
+    border-bottom: none; 
+    padding: 10px 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #F9F9F9;
+}
+table.wiss_table tr td{
+    padding: 8px 0px;
+}
+table.wiss_table tr.wt_content{
+    background: #FFFFFF;
+}
+table.wiss_table tr.wt_content:nth-child(odd){
+    background: #F5F5F5;
+}
+table.wiss_table tr.wt_content td.wt_sn{
+    width: 7%;
+}
+table.wiss_table tr.wt_content td.wt_re{
+    width: 22%;
+}
+table.wiss_table tr.wt_content td.wt_tt{
+    width: 56%;
+}
+table.wiss_table tr.wt_content td.wt_su{
+    width: 15%; 
+}
+    
+/**upload.html**/
+div.wissafm_upload{
+    width: 100%;
+    padding: 10px 0px;
+}
+div.wissaf_img div{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 20px;
+}
+div.wissaf_img input#image{
+    text-align: center;
+    width: 50%;
+    padding: 5px 0px;
+    margin:  auto;
+	display: none;
+}
+div.wissaf_det textarea{
+    width: 100%;
+    resize: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    margin: 20px 0px 10px 0px;
+    letter-spacing: 2px;
+}
+div.wissaf_det textarea:focus{
+    border: 1px solid #2196F3;
+}
+input#file{
+    display: none;
+}
+label.label_upload{
+    width: 80%;
+    margin: 10px auto;
+    height: 120px;
+    text-align: center;
+    border: 4px dashed #99CC99;
+    display: block;
+    line-height: 100px;
+    border-radius: 5px;
+    font-weight: normal;
+    font-size: 20px;
+}
+label.label_upload i{
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+/**float embed code**/
+div.float_background{
+	width: 100%;
+	height: 100%;
+	background: #555;
+	top: 0; left: 0; right: 0; bottom: 0;
+	opacity: 0.5;
+	position: fixed;
+	z-index: 998;
+	display: none;
+	}
+div.float_cont{
+	z-index: 999;
+	position: absolute;
+	background: #FFFFFF;
+	top: 10%; right: 20%; bottom: 10%; left: 20%;
+	box-shadow: 0px 1px 10px 1px #DDD;
+	-webkit-box-shadow: 0px 1px 10px 1px #DDD;
+	-moz-box-shadow: 0px 1px 10px 1px #DDD;
+	border-radius: 5px 0px;
+	padding: 5px;
+	display: none;
+	}
+/**float embed code**/
+
+span.file_download:before {
+	content: " ";
+	color: #333;
+	margin: 8px;
+}
+
+span.file_download {
+	font-size: 14px;
+	color: #2196F3;
+	margin: 4px;
+}
+
+a.download_file:hover {
+	text-decoration: none;
+}
+
+p.close_file {
+	text-align: right;
+}
+
+p.close_file span {
+	background: #ff0000;
+	cursor: pointer;
+	color: #fff;
+	padding: 5px 20px;
+	font-weight: bold;
+	margin-top: 4px;
+	border-radius: 4px;
+}
+
+/**tips.php**/
+div.wiss_tips{
+	display: flex; 
+	width: 95%;
+}
+div.wissa_left, div.wissa_right{
+	flex: 0.5;
+	text-align: justify;
+	padding: 20px 0px;
+	background: #EEFFEE;
+}
+h5.wissal_h5{
+	text-align: center;
+	padding: 10px 0px;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #BBB;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: bold;
+}
+div.wissa_right{
+	background: #FFEEEE;
+}
+ul.ulmain{
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+ul.ulmain li{
+	margin: 10px 0px;
+}
+ul.u_inner{
+	padding-left: 18px;
+	font-size: 18px;
+	font-weight: normal;
+}
+ul.ui_inner{
+	font-weight: normal;
+	padding-left: 40px;
+	font-size: 16px;
+	
+}
+/**tips.php**/
+p.instruction{
+	text-align: justify;
+	padding: 20px;
+	font-weight: bold;
+}
+div.wissaf_topic{
+	text-align: justify;
+	padding: 20px 30px;
+}
+div.wissaf_topic label{
+	display: block;
+}
+div.wissaf_topic input.wt_input{
+	padding: 10px 15px;
+	width: 95%;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+}
+div.approved_topic{
+	background: #EEFFEE;
+	padding: 10px 10px 100px 10px;
+	text-align: justify;
+}
+div.approved_topic h3, p.submitted_toggle{
+	font-size: 20px;
+	text-transform: capitalize;
+}
+p.submitted_toggle{
+	padding: 0px 10px;
+	border-bottom: 1px solid #FF0000;
+	text-align: center;
+	padding-top: 20px;
+}
+div.approved_topic p{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+div.upload_history{
+	display: flex;
+}
+div.uh_sent, div.uh_received{
+	flex: 0.5;
+	
+}
+div.uh_received{
+	flex: 0.5;
+}
+div.uh_received a{}
+div.upload_history h5{
+	font-weight: bold;
+	text-transform: capitalize;
+	font-weight: bold;
+	border-bottom: 1px solid #CCC;
+	padding: 10px 0px;
+}
+div.uh_received input.reply{
+	float: right;
+	display: block;
+	margin: 15px;
+	padding: 10px 20px !important;
+}
+div.upload_history span{
+	display: block;
+	padding: 10px 0px;
+}
+form.upload_part{
+	margin-top: 50px;
+}
+a.ws_backnav{
+	padding: 0px 20px;
+}
+div.project_history{
+	background: #f9f9f9;
+	border-top: 6px solid #aaaaff;
+	border-radius: 5px 5px 0px 0px;
+}
+div.project_history h3{
+	padding: 10px 0px;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+@media screen and (max-width: 1280px){
+
+div#w_inner{
+    width: 70%;
+}
+header#wih_header div.wihh_name h2{
+    letter-spacing: 1px;
+    word-spacing: 0px;
+}
+header#wih_header div.wihh_name h2 i{
+	display: none;
+}
+div.wiss_search{
+    width: 80%;
+}
+div.wisss_form{
+    width: 80%;
+}
+table.wiss_table{
+    font-size: 13px;
+}
+table.wiss_table tr.wt_content td.wt_re{
+    font-size: 12px;
+}
+}
+
+@media screen and (max-width: 960px){
+div#w_inner{
+    width: 85%;
+}
+header#wih_header div.wihh_name h2{
+    letter-spacing: 0px;
+    word-spacing: 1px;
+    font-size: 18px;
+}
+div.wihh_name h2 span.wihhn_span{
+    font-size: 30px;
+}
+div#wi_section section#wis_section{
+    padding: 10px;
+}
+div.wiss_students{
+    width: 48%;
+    height: 320px;
+    max-height: 320px;
+}
+div.wiss_students::-webkit-scrollbar {
+    width: 5px;
+}
+div.wiss_students::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 4px #DDD; 
+}
+div.wisss_name p{
+    text-align: center;
+    font-size: 15px;
+}
+div.wisss_title p{
+    padding: 0px 2px;
+    text-transform: capitalize;
+}
+div.wisss_assess label{
+    padding: 0px 5px;
+    width: 50%;
+    font-size: 13px;
+}
+div.wisss_assess input{
+    width: 50px;
+}   
+div.wiss_search{
+    width: 85%;
+}
+div.wisss_form{
+    padding: 20px 10px;
+    width: 80%;
+}
+div.wisss_form p{
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+div.wisss_form form input{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+div.wisss_result div#wisssr_detail{
+    padding: 5px;
+}
+div#wisssr_detail span{
+    width: 100px;
+}
+div#wisssr_detail p:nth-child(odd){
+    text-transform: capitalize;
+}   
+div#wisssr_detail h5:nth-child(even){
+    font-size: 12px;
+}
+div.wiss_div, div.acc_create{
+    width: 70%;
+}
+table.wiss_table{
+    font-size: 11px;
+}
+table.wiss_table tr.wt_content td.wt_re{
+    width: 27%;
+}
+table.wiss_table tr.wt_content td.wt_tt{
+    width: 55%;
+}
+
+label.label_upload{
+    line-height: 60px;
+}
+
+ul.ulmain{
+	font-size: 18px;
+}
+ul.u_inner{
+	font-size: 16px;
+}
+ul.ui_inner{
+	font-size: 14px;
+	
+}
+}
+
+@media screen and (max-width: 550px){
+div#wrapper{
+    height: 400px;
+}
+div#w_inner{
+    width: 95%;
+}
+div#wi_header{
+    padding: 5px;
+}
+ header#wih_header div.wihh_name{
+     order: 2;
+}
+header#wih_header div.wihh_name h2{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 13px;
+    text-align: center;
+}
+div.wihh_name h2 span.wihhn_span{
+    font-size: 20px;
+}
+header#wih_header div.wihh_nav{
+    text-align: left;
+}
+div.wihh_nav h5{
+    display: none;
+}
+div.wihhn_div span.wihhn_name{
+    font-size: 15px;
+    padding: 5px;
+}
+/**ignore codes to here */
+
+div#wi_section section#wis_section{
+    padding: 20px 5px;
+}
+div#wi_section section#wis_section h4{
+    text-align: center;
+    padding: 5px 0px;
+    width: 70%;
+    letter-spacing: 0px;
+    font-weight: bold;
+}   
+div.wiss_students{
+    width: 100%;
+    display: block;
+    padding: 10px 0px;
+    height: 320px;
+    max-height: 320px;
+}
+div.wisss_name p{
+    font-size: 14px;
+}
+div.wisss_title p{
+    text-transform: capitalize; 
+}
+div.wisss_assess label{
+    width: 60%;
+    font-size: 11px;
+}
+div.wisss_assess input{
+    width: 50px;
+}
+div.wisss_assess i{
+    font-size: 18px;
+}
+
+/**ignore codes from here */
+div#wi_footer{
+    padding: 5px;
+}
+div#wi_footer footer#wif_footer p{
+    font-size: 14px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+}   
+div.wiss_search{
+    width: 100%;
+}
+div.wisss_form{
+    box-shadow: 0px 0px 20px 5px #DDD;
+    padding: 10px 5px;
+    width: 90%;
+    border-radius: 5px 0px;
+}
+div.wisss_form p{
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+div.wisss_form form input{
+    padding: 15px 5px; 
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+div.wisss_form form span{
+    padding: 0px 15px;
+}
+div.wisss_result{
+    display: block;
+    text-align: center;
+}
+ div.wisss_result img{
+    width: 50%;
+}
+div.wisss_result div#wisssr_detail{
+    padding: 5px;
+    font-size: 12px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+div#wisssr_detail span{
+    width: 90px;
+    padding: 0px 5px;
+}
+div.wiss_assess{
+    width: 95%;
+}
+div.wissaf_img img{
+    width: 120px;
+    height: 120px;
+}
+div.wissaf_det{
+    width: 100%;
+}
+div.wissaf_det h6{
+    padding: 5px 0px;
+    font-size: 16px;
+}
+div.wissaf_det p:nth-child(odd){
+    font-size: 16px;
+}
+div.wissafm_factor label{
+    flex: 0.35;
+    font-weight: normal;
+    font-size: 11px;
+}
+div.wissafm_factor input.fac_range{
+    flex: 0.6;
+} 
+div.wiss_div, div.acc_create{
+    width: 90%;
+}
+form.wissd_form{
+    width: 90%;
+}
+form.wissd_form input.wissdf_input{
+    padding: 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}   
+table.wiss_table tr.wt_header th:nth-child(1){
+    display: none;
+}
+table.wiss_table tr.wt_header th{
+    padding: 5px 0px;
+    letter-spacing: 1px;
+}
+table.wiss_table tr td{
+    padding: 5px 0px;
+}
+table.wiss_table tr.wt_content td.wt_sn{
+    display: none;
+}
+table.wiss_table tr.wt_content td.wt_re{
+    width: 28%;
+    font-size: 10px;
+}
+table.wiss_table tr.wt_content td.wt_tt{
+    width: 50%;
+}
+div.wissaf_img input#image{
+    width: 80%;
+}
+div.wissaf_det textarea{
+    padding: 5px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+	font-size: 12px;
+	width: 80%;
+}
+label.label_upload{
+    width: 90%;
+    line-height: 50px;
+}
+
+div.wiss_tips{
+	display: block; 
+	width: 99%;
+}
+}
+
+/*Search Form Style Section */
+
+div.search_stud {
+	width: 300px;
+	max-width: 320px;
+	margin: 0 auto 30px auto;
+	border: 1px solid #CCC;
+	border-radius: 2px;
+	box-shadow: 3px 3px 2px #efefef;
+	padding: 0px 10px;
+}
+
+form.search_form  input, form.search_form  select {
+	border: none;
+	padding: 7px 5px;
+}
+
+form.search_form  input:first-child {
+	border-right: 1px solid #ccc;
+}
+
+/*End Search Form section*/
+
+
+/*Search Result Holder Style*/
+
+section.search_result_holder {
+	position: fixed;
+	z-index: 1000;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	background: #000;
+	opacity: 0.97;
+	/*display: none;*/
+	transition: height 500ms ease-in;
+	-moz-transition: height 500ms ease-in;
+	-webkit-transition: height 500ms ease-in;
+}
+
+div.search_inner_wrapper {
+	display: none;
+	height: auto; 
+	padding: 2px;
+}
+
+section.search_result_holder.close_class {
+	height: 100%;
+}
+
+.close_icon {
+	color: #fff;
+}
+
+div.close_div {
+	text-align: right;
+	max-width: 950px;
+	height: auto;
+	margin: 0 auto;
+}
+
+div.close_div p {
+	padding: 10px 0px 10px 10px;
+	color: #fff;
+}
+
+div.close_div p span{
+	background: #FF002A;
+	padding: 6px 16px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 10px; 
+	font-weight: bold;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+div.in_search {
+	background: #fff;
+	padding: 10px;
+	height: auto;
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+p.failure {
+	background:#FFEEEE; 
+	padding: 15px 20px; 
+	font-size: 13px; 
+	letter-spacing: 1px; 
+	font-weight: bold; 
+	border-radius: 6px; 
+	box-shadow: 1px 1px 1px #efefef; 
+	color: #ff0000; 
+	text-align: center;
+}
+
+p.success {
+	background:#EEFFEE; 
+	padding: 15px 20px; 
+	font-size: 13px; 
+	letter-spacing: 1px; 
+	font-weight: bold; 
+	border-radius: 6px; 
+	box-shadow: 1px 1px 1px #efefef; 
+	color: green; 
+	text-align: center;
+}
+
+/*End search result holder*/
